@@ -7,7 +7,7 @@ You are going to be given a word. Your job is to return the middle character of 
 
 Kata.getMiddle("test") should return "es"
 
-Kata.getMiddle("testing") should return "t"
+Kata.getMiddle("testing") should return "t" 
 
 Kata.getMiddle("middle") should return "dd"
 
