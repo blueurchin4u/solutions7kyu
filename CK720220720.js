@@ -1,6 +1,6 @@
 /*
 Square Every Digit
-
+ 
 1. Convert numbers to strings, then an array of digits
 2. Square each digit. Because JavaScript has automatic type coercion, it will quietly convert each string
     into a number to perform multiplication const squaredDigits = digits.map(n => n * n)
