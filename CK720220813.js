@@ -1,5 +1,5 @@
 // Make acronym
-
+ 
 // Write function which takes a string and make an acronym of it.
 
 // Rule of making acronym in this kata:
