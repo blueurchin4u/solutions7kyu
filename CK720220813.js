@@ -12,4 +12,4 @@
 
 // Code wars -> C, w -> C W -> CW
 
-const toAcronym = inp => inp.split(' ').map(e => e[0].toUpperCase()).join('')
+const toAcronym = inp => inp.split(' ').map(e => e[0].toUpperCase()).join('') 
