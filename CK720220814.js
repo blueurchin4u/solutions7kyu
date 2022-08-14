@@ -12,6 +12,8 @@
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 
+//max - min + 1 because it's inclusive
+
 const getSum = (a,b) => {
     let min = Math.min(a, b),
         max = Math.max(a, b)
