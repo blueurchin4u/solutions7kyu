@@ -17,3 +17,4 @@ const getSum = (a,b) => {
         max = Math.max(a, b)
     return (max - min + 1) * (max + min) / 2
 }
+
