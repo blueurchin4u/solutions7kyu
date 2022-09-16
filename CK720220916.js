@@ -36,3 +36,24 @@ const sumTwoSmallestNumbers = numbers => {
     let arr = numbers.sort((a, b) => a - b) 
     return numbers[0] + numbers[1]
   }
+//Second Example
+
+
+//spread operator takes an array and evaluates each item individually, kind of like split for strings
+function sumTwoSmallestNumbers(numbers) {  
+    let firstNum = Math.min(...numbers)
+    numbers.splice(numbers.indexOf(firstNum), 1)
+    let secondNum = Math.min(...numbers)
+    console.log(firstNum + secondNum)
+  }
+  
+sumTwoSmallestNumbers([19, 5, 42, 2, 78])
+
+//Solution
+const sumTwoSmallestNumbers = (numbers) => {  
+    let firstNum = Math.min(...numbers)
+    numbers.splice(numbers.indexOf(firstNum), 1)
+    let secondNum = Math.min(...numbers)
+    return firstNum + secondNum
+  }
+  
